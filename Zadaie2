@@ -1,1 +1,14 @@
+public class Mavenproject10 {
 
+ 
+
+    public static void main(String[] args) {
+        int a = 590;
+        int b = 689;
+        int c = 203;
+        int d = 79;
+        int e = 477;
+        double f = (a + b + c + d + e) / 5;
+        System.out.println(f);
+    }
+}
