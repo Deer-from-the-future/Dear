@@ -35,6 +35,6 @@ public static int Zadanie3() {
         int min = Collections.min(ints);
         return min;
 
- 
+ }
 
     }
