@@ -29,3 +29,12 @@ public static double Zadanie2() {
         double f = (a + b + c + d + e) / 5;
         return f;
     }
+public static int Zadanie3() {
+        Integer[] arr = {565, 45, 655, 47, 66};
+        List<Integer> ints = Arrays.asList(arr);
+        int min = Collections.min(ints);
+        return min;
+
+ 
+
+    }
