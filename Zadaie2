@@ -1,14 +1,22 @@
+package com.mycompany.mavenproject10;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.Collections;
+
 public class Mavenproject10 {
 
- 
+    public static void main(String[] args) {
+        System.out.println("Сумма пяти чисел: " + Zadanie1());
+        System.out.println("Нахождение среднего арифметического: " + Zadanie2());
+        System.out.println("Нахождение минимального числа: " + Zadanie3());
+    }
 
-    public static void main(String[] args) {
-        int a = 590;
-        int b = 689;
-        int c = 203;
-        int d = 79;
-        int e = 477;
-        double f = (a + b + c + d + e) / 5;
-        System.out.println(f);
-    }
-}
+    public static int Zadanie1() {
+        int a = 930;
+        int b = 433;
+        int c = 904;
+        int d = 344;
+        int e = 211;
+        return a + b + c + d + e;
+    }
