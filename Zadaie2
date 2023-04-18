@@ -20,3 +20,12 @@ public class Mavenproject10 {
         int e = 211;
         return a + b + c + d + e;
     }
+public static double Zadanie2() {
+        int a = 590;
+        int b = 689;
+        int c = 203;
+        int d = 79;
+        int e = 477;
+        double f = (a + b + c + d + e) / 5;
+        return f;
+    }
